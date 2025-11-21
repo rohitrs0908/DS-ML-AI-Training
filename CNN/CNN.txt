@@ -1,0 +1,39 @@
+https://www.kaggle.com/code/kanncaa1/convolutional-neural-network-cnn-tutorial
+https://www.kaggle.com/code/pavansanagapati/a-simple-cnn-model-beginner-guide
+
+CNN_IRIS
+
+
+
+Digital Imaging Tutorial
+http://preservationtutorial.library.cornell.edu/intro/intro-01.html#:~:text=The%20digital%20image%20is%20sampled,code%20(zeros%20and%20ones).
+
+Convolution Intro
+https://www.kdnuggets.com/2020/06/introduction-convolutional-neural-networks.html
+https://medium.com/@himadrisankarchatterjee/a-basic-introduction-to-convolutional-neural-network-8e39019b27c4
+https://www.projectpro.io/article/introduction-to-convolutional-neural-networks-algorithm-architecture/560
+https://aigents.co/data-science-blog/publication/introduction-to-convolutional-neural-networks-cnns
+https://www.simplilearn.com/tutorials/deep-learning-tutorial/convolutional-neural-network
+
+Meaning of Convolution
+https://www.projectpro.io/article/introduction-to-convolutional-neural-networks-algorithm-architecture/560
+
+What is convolution in CNN
+https://machinelearningmastery.com/convolutional-layers-for-deep-learning-neural-networks/
+
+Image Classification
+https://www.tensorflow.org/tutorials/images/cnn
+https://keras.io/examples/vision/mnist_convnet/
+
+Cifar-10
+https://home.mit.bme.hu/~hadhazi/Oktatas/NN18/dem3/html_demo/CIFAR-10Demo.html
+
+
+ILSVRC
+https://machinelearningmastery.com/introduction-to-the-imagenet-large-scale-visual-recognition-challenge-ilsvrc/
+https://www.kaggle.com/discussions/getting-started/149448
+https://machinelearningknowledge.ai/popular-image-classification-models-in-imagenet-challenge-ilsvrc-competition-history/
+
+Transfer Learning
+https://builtin.com/data-science/transfer-learning
+https://neptune.ai/blog/transfer-learning-guide-examples-for-images-and-text-in-keras

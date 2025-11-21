@@ -1,0 +1,46 @@
+Theory
+https://medium.com/machine-learning-researcher/artificial-neural-network-ann-4481fa33d85a
+
+ANN and BNN
+https://wp.nyu.edu/shanghai-ima-documentation/electives/aiarts/jy2122/week-4-artificial-neural-network-vs-biological-neural-network/#:~:text=SIMILARITIES,neurons%20as%20nodes%20and%20edges).
+https://news.sophos.com/en-us/2017/09/21/man-vs-machine-comparing-artificial-and-biological-neural-networks/
+https://fastdatascience.com/how-similar-are-neural-networks-to-our-brains/
+https://www.ibm.com/topics/neural-networks#:~:text=Their%20name%20and%20structure%20are,layers%2C%20and%20an%20output%20layer.
+
+Perceptron
+https://www.analytixlabs.co.in/blog/what-is-perceptron/
+
+MLP
+https://www.pycodemates.com/2023/01/multi-layer-perceptron-a-complete-overview.html
+https://machinelearningmastery.com/neural-networks-crash-course/
+
+https://www.kaggle.com/code/prashant111/comprehensive-guide-to-ann-with-keras
+
+https://www.kaggle.com/code/shrutimechlearn/deep-tutorial-1-ann-and-classification
+
+https://www.kaggle.com/code/vitorgamalemos/multilayer-perceptron-from-scratch
+
+
+Regression
+https://www.kaggle.com/code/devoroberts/linear-regression-with-artificial-neural-network/notebook
+https://www.kaggle.com/datasets/noordeen/insurance-premium-prediction
+https://www.kaggle.com/datasets/awaiskaggler/insurance-csv
+Keras History
+https://machinelearningmastery.com/display-deep-learning-model-training-history-in-keras/
+
+Adam Optimiser
+https://machinelearningmastery.com/adam-optimization-algorithm-for-deep-learning/
+https://www.tensorflow.org/api_docs/python/tf/keras/optimizers
+Sequential Model
+https://www.tensorflow.org/api_docs/python/tf/keras/Sequential
+
+Classification
+https://www.kaggle.com/code/anshulchaudhary/ann-model-for-beginners-to-start-with
+https://www.kaggle.com/datasets/rakeshrau/social-network-ads
+
+The Dataset used in these models tells about whether a person of certain age having certain income purchases a product or not.
+We need to predict whether a targeted audience will purchase the product or not.
+
+
+
+

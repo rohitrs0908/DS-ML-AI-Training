@@ -1,0 +1,59 @@
+https://www.superdatascience.com/blogs/the-ultimate-guide-to-recurrent-neural-networks-rnn
+
+RNN
+https://machinelearningmastery.com/an-introduction-to-recurrent-neural-networks-and-the-math-that-powers-them/
+https://www.codingninjas.com/studio/library/sentiment-analysis-with-rnn
+https://www.section.io/engineering-education/univariate-time-series-using-recurrent-neural-networks/
+https://rarelyknows.wordpress.com/2021/03/07/multilabel-classification-on-iris-dataset-using-lstmkeras/
+
+Bi-directional RNN
+https://www.scaler.com/topics/deep-learning/bidirectional-rnn/
+https://blog.paperspace.com/bidirectional-rnn-keras/
+https://www.codingninjas.com/studio/library/understanding-bidirectional-rnn
+https://d2l.ai/chapter_recurrent-modern/bi-rnn.html
+https://www.geeksforgeeks.org/bidirectional-recurrent-neural-network/
+
+
+from keras.datasets import imdb  # import the built-in imdb dataset in Keras
+
+# Set the vocabulary size
+vocabulary_size = 5000
+
+(X_train, y_train), (X_test, y_test) = imdb.load_data(num_words=vocabulary_size)
+print("Loaded dataset with {} training samples, {} test samples".format(len(X_train), len(X_test)))
+print("--- Review ---")
+print(X_train[17])
+print("--- Label ---")
+print(y_train[17])
+
+rom keras.preprocessing import sequence
+
+max_words = 500
+
+X_train = sequence.pad_sequences(X_train, maxlen=max_words)
+X_test = sequence.pad_sequences(X_test, maxlen=max_words)
+
+from keras.models import Sequential
+from keras.layers import Embedding, LSTM, Dense, Dropout
+
+
+embedding_size = 64
+model = Sequential()
+model.add(Embedding(vocabulary_size, embedding_size, input_length=max_words))
+model.add(LSTM(100))
+model.add(Dense(1, activation='sigmoid'))
+
+model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+batch_size = 64
+num_epochs = 3
+
+X_valid, y_valid = X_train[:batch_size], y_train[:batch_size]  # first batch_size samples
+X_train2, y_train2 = X_train[batch_size:], y_train[batch_size:]  # rest for training
+
+model.fit(X_train2, y_train2,
+          validation_data=(X_valid, y_valid),
+          batch_size=batch_size, epochs=num_epochs)
+
+scores = model.evaluate(X_test, y_test, verbose=0)  # returns loss and other metrics specified in model.compile()
+print("Test accuracy:", scores[1])  # scores[1] should correspond to accuracy if you passed in metrics=['accuracy']
